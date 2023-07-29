@@ -9,7 +9,7 @@ voices();
 
 function voices(){
     for(let voice of synth.getVoices()){
-        let selected = voice.name === "Select" ? "selected" : "";
+        let selected = voice.name === "Google US" ? "selected" : "";
         let option = `<option value="${voice.name}" ${selected}>${voice.name} (${voice.lang})</option>`;
         voiceList.insertAdjacentHTML("beforeend", option);
     }
