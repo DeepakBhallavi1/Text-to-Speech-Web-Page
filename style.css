@@ -12,7 +12,7 @@ body{
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: #f40bc9;
+  background: #3d7c80;
 }
 ::selection{
   color: #fff;
@@ -22,9 +22,10 @@ body{
   width: 500px;
   padding: 60px 60px;
   border-radius: 7px;
-  background: rgb(220, 13, 13);
+  background: rgb(224, 231, 225);
   /* box-shadow: 7px 7px 20px rgba(42, 230, 17, 0.05); */
-  box-shadow: 10px 10px 10px 10px rgba(rgb(214, 12, 12));
+  box-shadow: 10px 10px 10px 10px rgba(rgb(126, 94, 94));
+  
 }
 .wrapper header{
   color: #111013;
@@ -77,7 +78,7 @@ form .row .outer{
 }
 form .row select{
   font-size: 14px;
-  background: none;
+  background-color: rgb(247, 237, 237);
 }
 form .row select::-webkit-scrollbar{
   width: 8px;
@@ -92,24 +93,26 @@ form .row select::-webkit-scrollbar-thumb{
 }
 form button{
   height: 52px;
-  color: #fff;
+  color:black;
   font-size: 17px;
   cursor: pointer;
   margin-top: 10px;
-  background: #180ba6;
+  background: #44d6e7;
   transition: 0.3s ease;
+  font-weight: 700;
 }
 form button:hover{
-  background: #393189;
+  background: #4a3dbc;
+  color: white;
   font-weight: 700;
 }
 select,option{
-  background-color:rgb(206, 16, 16) ;
-  font-weight: bold;
-  font-size: 20px;
+  background-color:rgb(193, 168, 168) ;
+  font-weight: 500;
+  font-size: 13px;
 }
 textarea{
-  background-color:rgb(206, 16, 16) ;
+  background-color:rgb(244, 236, 236);
   font-weight: bold;
 }
 
